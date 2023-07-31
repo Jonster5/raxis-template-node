@@ -6,7 +6,7 @@ new ECS()
 	.insertResource(
 		new HostSettings({
 			port: 5100,
-			cb: (p) => console.log(`Listing on port ${p}`),
+			cb: (p) => console.log(`Listening on port ${p}`),
 		})
 	)
 	.run();
